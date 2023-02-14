@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <!--https://www.youtube.com/watch?v=G3e-cpL7ofc-->
 <!--https://supersimple.dev/exercises/youtube -->
-<!--4:11:30-->
+<!--4:35:07-->
 <html>
     <head>
         <title>Youtube.com Clone</title>
@@ -9,31 +9,43 @@
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
 
-        <link rel="stylesheet" href="styles/genaral.css">
+        <link rel="stylesheet" href="styles/general.css">
         <link rel="stylesheet" href="styles/header.css">
         <link rel="stylesheet" href="styles/video.css">
 
 
     </head>
+
     <body>
       <div class="header">
+
         <div class="left-section">
-          left section
+          <img class="hamburger-menu" src="icons\hamburger-menu.svg">
+          <img class="youtube-logo" src="icons\youtube-logo.svg">
+          
+          
         </div>
+
         <div class="middle-section">
           <input class="search-bar" type="text" placeholder="Search">
+          
+          <button class="search-button">
+            <img  class= "search-icon" src="icons\search.svg">
+          </button> 
+
+         <button class="voice-search-button">
+            <img src="icons\voice-search-icon.svg">
+          </button>
         </div>
+
         <div class="right-section">
           right section
         </div>
         
-
       </div>
 
-     
-     
-        <div class="video-grid">
-          <div class="video-preview">
+      <div class="video-grid">
+        <div class="video-preview">
             <div class = thumbnail-row>
               <img class="thumbnail" img src="thumbnails/thumbnail-1.webp">
             </div>
@@ -167,7 +179,7 @@
                   </div>
                 </div>
 
-        </div>
+    </div>
 
      
     <br>
@@ -181,5 +193,5 @@
       Data fra thingspeak
     </a>
 
-    </body>
+  </body>
 </html>
