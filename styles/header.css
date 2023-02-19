@@ -30,6 +30,7 @@ border-bottom-color: rgb(240,240,240);
 }
 .youtube-logo{
     height: 50px;
+    border: 1px solid rgb(215, 211, 211)
 }
 .middle-section{
     flex: 1;
